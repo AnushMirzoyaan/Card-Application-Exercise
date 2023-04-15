@@ -1,0 +1,12 @@
+.App {
+  display: grid;
+  grid-template-columns: 7fr 3fr ;
+  align-items: first center;
+  background-color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}

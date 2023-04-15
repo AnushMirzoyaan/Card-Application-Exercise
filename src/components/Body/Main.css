@@ -1,0 +1,48 @@
+.singleCard {
+    background-color: #c2e5ff;
+    border: 1px solid black;
+    height: 200px;
+    max-width: 400px;
+    min-width: 200px;
+    text-align: center;
+}
+
+.singleCard span {
+    margin: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+.singleCard div {
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #03276f;
+}
+
+
+.cardContainer {
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 75vh;
+    display: grid;
+    gap: 8px 10px;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 0 0 20px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
